@@ -1,0 +1,21 @@
+<div class="container">
+  <h1 class="mt-5">Редактировать страну</h1>
+
+  <%= form_with(model: @country, local: true, html: { class: 'mt-3' }) do |form| %>
+    <div class="mb-3">
+      <%= form.label :Название, class: 'form-label' %>
+      <%= form.text_field :name, class: 'form-control' %>
+    </div>
+
+    <div class="mb-3">
+      <%= form.label :Население, class: 'form-label' %>
+      <%= form.text_area :population, class: 'form-control' %>
+    </div>
+
+    <div class="mb-3">
+      <%= form.submit 'Редактировать', class: 'btn btn-primary' %>
+    </div>
+  <% end %>
+
+  <%= link_to 'Назад', countries_path, class: 'btn btn-secondary' %>
+</div>
