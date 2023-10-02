@@ -1,24 +1,8 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+С Ruby и с Rails я работал в первый раз, сделал как смог, создал сущности, связи между ними, на главной выводится список турбаз, изначальные тестовые данные загружаются через seed.db, стилизацию сделал через bootstrap, можно добавлять новые турбазы, страны, удалять и редактировать
 
-Things you may want to cover:
+вторую часть sql запрос напишу здесь
 
-* Ruby version
 
-* System dependencies
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
